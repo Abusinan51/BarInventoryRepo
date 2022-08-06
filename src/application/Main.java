@@ -14,7 +14,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			VBox root = loader.load(new FileInputStream("src/application/OutputWindow.fxml"));
+			VBox root = loader.load(new FileInputStream("src/application/InputWindow.fxml"));
 			Scene scene = new Scene(root,600,430);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Bar Inventory");
